@@ -1,0 +1,37 @@
+.App {
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    border: solid;
+    border-color: black;
+    width: 600px;
+}
+
+#petInfo {
+    
+    margin: 0 auto;
+    border: solid;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table {
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
